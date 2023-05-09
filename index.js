@@ -3,6 +3,8 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000;
 
+console.log("variables",process.env.PORT, process.env.SAMPLE);
+
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
