@@ -5,7 +5,7 @@ const port = process.env.PORT;
 
 console.log("variables",process.env.PORT, process.env.SAMPLE);
 
-app.get('/', function (req, res) {
+app.get('/edlo', function (req, res) {
   res.send('Hello World')
 })
 
